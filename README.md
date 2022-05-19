@@ -1,6 +1,6 @@
-# todolist
+# Google-Form-Clone
 
-To-Do List Application..
+As the name suggests it is the clone of google-form. In it the user can login/register and can start creating their own custom form with three different types of questions (radio,checkbox,text). Author of form can share the form link and anybody can give thier responses by providing their email id. The user can see the responses from the dashboard of the website.
 
 # How to Use The Code
 
@@ -12,6 +12,10 @@ To-Do List Application..
 > 1.  DATABASE : {your own database}
 > 2.  SECRET_KEY : {jwt secret key}
 
+# Technology Used
+
+> I have used the MERN stack as the technology stack to create this application.
+
 # Live Preview -
 
-https://to-do-ayush.herokuapp.com/
+https://google-formclone.herokuapp.com/
