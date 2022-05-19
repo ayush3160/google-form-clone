@@ -1,0 +1,146 @@
+html{
+  background-color: #FBEAEB;
+}
+
+.container-fluid{
+  background-color: #FBEAEB;
+}
+
+input[type="text"]{
+  background: transparent;
+  color: black;
+}
+
+.input-question:focus {
+  background: transparent;
+  border: none;
+  font-size: 60px;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.input-question{
+  font-size: 60px;
+  color: black;
+  font-weight: 100;
+}
+
+.input-form{
+  font-size: 20px;
+  color: black;
+  font-weight: 100;
+}
+
+.input-question::placeholder{
+  font-size: 60px;
+  color: black;
+  opacity: 0.5;
+}
+
+.modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 400px;
+  background-color: blue;
+}
+
+.modal-header , .modal-footer{
+  padding: 10px;
+}
+
+.modal-title{
+  margin: 0px;
+}
+
+.modal-body{
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+
+.signin{
+  margin: 20px;
+border: 0.5px solid black;
+border-radius: 3%;
+background-color: white;
+font-size: 15px;
+font-weight: 600;
+height: 50px;
+width: 300px;
+cursor: pointer;
+}
+
+.modal-header button:hover {
+background-color: black;
+color: white;
+}
+
+.modal-body input{
+width: 300px;
+height: 30px;
+}
+
+.modal-body p{
+line-height: 5px;
+}
+
+.modal-body a{
+text-decoration: none;
+padding-top: 10px;
+/* margin: 30px; */
+}
+
+.modal-footer button{
+height: 50px;
+background-color: black;
+/* border: 0.5px solid black; */
+color: white;
+margin: 20px;
+width: 300px;
+text-align: center;
+border: none;
+font-size: 15px;
+cursor: pointer;
+}
+
+.dashboard {
+  width : 100%;
+}
+
+/* .dashboard:hover {
+  width : 30% 
+} */
+
+.scrolling-area {
+  max-width: 250px;
+  max-height: 530px;
+  overflow: auto;
+  padding: 1rem;
+  background: FBEAEB;
+  direction: ltr;
+}
+
+.scrolling-area-1 {
+  max-width: 900px;
+  max-height: 530px;
+  overflow: auto;
+  padding: 1rem;
+  background: transparent;
+  border-left: 1px solid black;
+  direction: ltr;
+}
+
+.scrolling-element-inside {
+  direction: ltr;
+}
